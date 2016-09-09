@@ -1,0 +1,70 @@
+@-webkit-keyframes sectionBG {
+	0% {background-color: #fff;}
+	25% {background-color: #e4b7bf;}
+	50% {background-color: #e169e6}
+	75% {background-color: #3590e0;}
+	100% {background-color: #ddc22a;}
+}
+@-moz-keyframes sectionBG {
+	0% {background-color: #fff;}
+	25% {background-color: #e4b7bf;}
+	50% {background-color: #e169e6}
+	75% {background-color: #3590e0;}
+	100% {background-color: #ddc22a;}
+}
+@-o-keyframes sectionBG {
+	0% {background-color: #fff;}
+	25% {background-color: #e4b7bf;}
+	50% {background-color: #e169e6}
+	75% {background-color: #3590e0;}
+	100% {background-color: #ddc22a;}
+}
+@keyframes sectionBG {
+	0% {background-color: #fff;}
+	25% {background-color: #e4b7bf;}
+	50% {background-color: #e169e6}
+	75% {background-color: #3590e0;}
+	100% {background-color: #ddc22a;}
+}
+@-webkit-keyframes fontPart {
+	0% {background-color: #d0acd1;}
+	25% {background-color: #536a7f;}
+	50% {background-color: #ded18c;}
+	75% {background-color: #75a3b5;}
+	100% {background-color: #60905d;}
+}
+@-moz-keyframes fontPart {
+	0% {background-color: #d0acd1;}
+	25% {background-color: #536a7f;}
+	50% {background-color: #ded18c;}
+	75% {background-color: #75a3b5;}
+	100% {background-color: #60905d;}
+}
+@-o-keyframes fontPart {
+	0% {background-color: #d0acd1;}
+	25% {background-color: #536a7f;}
+	50% {background-color: #ded18c;}
+	75% {background-color: #75a3b5;}
+	100% {background-color: #60905d;}
+}
+@keyframes fontPart {
+	0% {background-color: #d0acd1;}
+	25% {background-color: #536a7f;}
+	50% {background-color: #ded18c;}
+	75% {background-color: #75a3b5;}
+	100% {background-color: #60905d;}
+}
+.sectionPart {
+	background: #fff;
+	-webkit-animation: sectionBG 40s infinite alternate;
+	-moz-animation: sectionBG 40s infinite alternate;
+	-o-animation: sectionBG 40s infinite alternate;
+	animation: sectionBG 40s infinite alternate;
+}
+.fontPart {
+	background: #fff;
+	-webkit-animation: fontPart 40s infinite alternate;
+	-moz-animation: fontPart 40s infinite alternate;
+	-o-animation: fontPart 40s infinite alternate;
+	animation: fontPart 40s infinite alternate;
+}
